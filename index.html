@@ -9,8 +9,18 @@
     <script src="js/jquery.min.js"></script>
 </head>
 <body>
-    <div class="barrage-wrap">
-        <div class="barrage-content"></div>
+    <div class="barrage-wrap" id="BA-wrap">
+    </div>
+
+    <div class="emit-wrap">
+        <input type="text" class="emit-input">
+        <button class="emit-btn">发射</button></br>
+        <input type="radio" name="speed" class="emit-radio" id="emit-slow" checked="checked">
+        <label for="emit-slow">慢速</label>
+        <input type="radio" name="speed" class="emit-radio" id="emit-normal">
+        <label for="emit-normal">中速</label>
+        <input type="radio" name="speed" class="emit-radio" id="emit-fast">
+        <label for="emit-fast">快速</label>
     </div>
 </body>
 <script src="js/bar.js"></script>
